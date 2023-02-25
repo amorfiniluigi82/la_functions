@@ -1,0 +1,9 @@
+python -m venv venv
+
+venv\Scripts\activate.ps1
+
+python -m pip --no-cache-dir install -U pip setuptools ; pip --no-cache-dir install wheel
+
+pip --no-cache-dir install -r requirements.txt
+
+
