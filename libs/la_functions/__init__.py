@@ -5,4 +5,3 @@ from . inputoutput import *
 from . finance import *
 from . arithmetic import *
 from . images import *
-from . microphone import *
